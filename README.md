@@ -4,8 +4,19 @@ A cute 8-bit weather screen for an ESP32 and a 1.54" ST7789 display. It shows th
 
 No API key, no Home Assistant, no cloud account. Weather data comes from [Open-Meteo](https://open-meteo.com/) directly over WiFi.
 
+## On the desk
+
+<p align="center">
+   <img src="images/mochi-now.jpg" alt="Mochi displaying the current weather page" width="48%">
+   <img src="images/mochi-tomorrow.jpg" alt="Mochi displaying tomorrow's forecast" width="48%">
+</p>
+<p align="center"><em>NOW</em> and <em>TOMORROW</em> screens</p>
+
 ```
 platformio.ini
+images/
+├── mochi-now.jpg
+└── mochi-tomorrow.jpg
 weather_mochi/
 └── weather_mochi.ino
 ```
